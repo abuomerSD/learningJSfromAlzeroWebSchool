@@ -26,10 +26,16 @@
 */
 //characters scape sequence in js
 
-console.log('elzero');
-console.log("elzero \\ web \"school\"");
-console.log("elzero \\ web \"school\"");
+// console.log('elzero');
+// console.log("elzero \\ web \"school\"");
+// console.log("elzero \\ web \"school\"");
 
 /*
 =============================================
 */
+// concatenation
+
+let a = "we love";
+let b = "javascript";
+
+document.write(a +" "+ b);
