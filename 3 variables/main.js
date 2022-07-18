@@ -2,19 +2,34 @@
 // JavaScript is case senstive
 // JavaScript uses camelCase do identefy the variables
 // every var variable will be in the window object
+// search about variable scope drama
 
-var username = "Eltayeb";
+/*
+=============================================
+*/
+
+// var username = "Eltayeb";
 
 // console.log(username);
 // console.log(username);
 // console.log(username);
 // console.log(hello);
 
-hello.innerHTML = username ;
+// hello.innerHTML = username ;
 
+// let password = "113123ddsd";
 
-let password = "113123ddsd";
+// const email =  "saseew@yahoo.com";
 
-const email =  "saseew@yahoo.com";
+/*
+=============================================
+*/
+//characters scape sequence in js
 
+console.log('elzero');
+console.log("elzero \\ web \"school\"");
+console.log("elzero \\ web \"school\"");
 
+/*
+=============================================
+*/
