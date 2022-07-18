@@ -35,7 +35,38 @@
 */
 // concatenation
 
-let a = "we love";
-let b = "javascript";
+// let a = "we love";
+// let b = "javascript";
 
-document.write(a +" "+ b);
+// document.write(a +" "+ b);
+
+/*
+=============================================
+    Template Literals (Template Strings)
+*/
+
+// let a = "we love";
+// let b = "javascript";
+// let c = "and";
+// let d = "programming";
+
+// console.log(a + " " +b+" "+c+" "+d);
+
+// //backtick
+// console.log(`${a} "" ${b} 
+// ${c} 
+// ${d}`);
+
+let contactsTitle = "contact us";
+let phone = "+88296832382";
+let email = "aesd@yahoo.com";
+
+let htmlTags = `
+    <div class = "Contacts">
+        <h1>${contactsTitle}</h1>
+        <p>phone: ${phone}</p>
+        <p>email: ${email}</p>
+    </div>
+`;
+
+document.write(htmlTags);
