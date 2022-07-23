@@ -12,8 +12,21 @@ let a = "10";
 let b = 20;
 let c = true;
 
-console.log("========================");
-
 console.log(+a + b);
 
 console.log(false - true);
+
+// Assignment Operators
+
+console.log("========================");
+let x = 10;
+
+x = x + 20;
+
+x += 20;
+
+x -= 20;
+
+x /= 10;
+
+console.log(x);
